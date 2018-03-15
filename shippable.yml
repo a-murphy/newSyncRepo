@@ -4,7 +4,7 @@ build:
 
 jobs:
   - name: sleep
-    type: runsh
+    type: runSh
     steps:
       - TASK:
         - script: sleep 30
